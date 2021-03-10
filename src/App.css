@@ -15,9 +15,28 @@
 
 button{
     font-size: 20px;
-    margin-top: 10px;
+    margin: 10px;
     padding: 15px;
     background: #515152;
     border-radius: 10px;
     cursor: pointer;
+}
+
+button:hover{
+    background: white;
+    color: blue;
+    border: 1 px solid green;
+    transform: scale(1.1);
+}
+
+img{
+    width: 128px;
+    border-radius: 64px;
+    margin: 5px;
+}
+
+label, select{
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
 }
